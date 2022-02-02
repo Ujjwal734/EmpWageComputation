@@ -25,9 +25,7 @@ namespace EmpWageComputation
             {
                 Console.WriteLine("Employ is Absent");
             }
-
         }
-
         public void Parttime()
         {
             int empwage = 0;
@@ -38,7 +36,7 @@ namespace EmpWageComputation
             string typeofEmploye = "";
             string name = "xyz";
             Random employee = new Random();
-            while (totalemphrs <= Max_Working_hrs && totaldays <= Max_Working_Days)
+            for (int day = 1; day <= Max_Working_Days; day++)
             {
                 int randominput = employee.Next(0, 3);
                 switch (randominput)
@@ -58,7 +56,7 @@ namespace EmpWageComputation
                 }
                 totalemphrs = totalemphrs + empHrs;
                 totalempwage = RatePerHrs * totalemphrs;
-                Console.WriteLine("{0}Employe of day: {1}wage is {2}", typeofEmploye, totaldays, empwage);
+                Console.WriteLine("{0}Employe of day: {1} wage is {2}", typeofEmploye, totaldays, empwage);
                 totalempwage = totalempwage + empwage;
                 totaldays++;
             }
