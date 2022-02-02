@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageComputation
 {
-    public class Monthlypay
+  /*  public class Monthlypay
     {
         public const int Is_Part_Time = 1;
         public const int Is_Full_Time = 2;
@@ -38,5 +38,5 @@ namespace EmpWageComputation
             }
             Console.WriteLine("Total Emp Wage : " + totalEmpWage);
         }
-    }
+    }*/
 }
