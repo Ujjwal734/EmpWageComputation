@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageComputation
 {
-    public class EmpRefact
+ /*   public class EmpRefact
     {
         public const int Is_Part_Time = 1;
         public const int Is_Full_Time = 2;
@@ -44,5 +44,5 @@ namespace EmpWageComputation
         {
             ComputeEmpWages();
         }
-    }
+    }*/
 }
